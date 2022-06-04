@@ -32,6 +32,7 @@ export default {
   justify-content: center;
   width: 35px;
   height: 35px;
+  border: 1px solid transparent;
   border-radius: 10px;
   color: $light;
   font-size: 18px;
@@ -41,6 +42,10 @@ export default {
 
   &:hover {
     background-color: $bg-hover;
+  }
+
+  &:active {
+    border: 1px solid $main-color;
   }
 }
 </style>
