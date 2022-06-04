@@ -56,11 +56,8 @@ export default {
 @import '../assets/styles/variables';
 
 .burger-menu {
-  position: absolute; z-index: 10; background-color: #fff;  //TODO: ←—— delete
-  top: 0;
-  left: 0;
-
   min-width: 220px;
+  width: 100%;
   padding: 10px 15px;
   border-radius: 10px;
   background-color: $light;

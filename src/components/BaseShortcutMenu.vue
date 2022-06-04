@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'ShortcutMenu',
+  name: 'BaseShortcutMenu',
 
   props: {
     contentPosition: { type: String, default: 'left' },

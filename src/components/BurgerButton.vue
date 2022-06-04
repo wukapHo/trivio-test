@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'BurgerrButton',
+  name: 'BurgerButton',
 
   props: {
     isActive: {
